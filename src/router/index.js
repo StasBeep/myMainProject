@@ -9,6 +9,14 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/calculator',
+    name: 'calculator'
+  },
+  {
+    path: '*',
+    name: 'NotFound'
   }
 ]
 

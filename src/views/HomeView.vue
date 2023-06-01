@@ -7,7 +7,7 @@
 
             <!--Шапка сайта-->
             <header>
-                <h1>Привет</h1>
+                <MenuRouting />
             </header>
 
             <!--Основная часть-->
@@ -33,11 +33,13 @@
 
 <script>
 
+import MenuRouting from '../components/MenuRouting.vue'
 import Hello from '../components/Hello.vue'
 
 export default {
   name: 'HomeView',
   components: {
+    MenuRouting,
     Hello
   }
 }
