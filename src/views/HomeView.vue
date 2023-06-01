@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--обёртка для всего содержимого, чтобы прижать footer к нижней части-->
-    <div class="wrapper-forcontent">
+    <div class="wrapper wrapper-forcontent">
         <!--Содержимое сайта без подвала (нужно для прижатия подвала к нижней части)-->
         <div class="content-without-footer">
 
@@ -25,7 +25,7 @@
 
         <!--Подвал сайта-->
         <footer>
-          Версия: 0.1.0
+          Версия: 0.0.0
         </footer>
     </div>
   </div>
@@ -43,6 +43,4 @@ export default {
 }
 </script>
 
-<style src="../scss/style.scss" lang="scss" scoped>
-@import '../scss/style.scss';
-</style>
+<style src="../scss/style.scss" lang="scss" scoped/>
