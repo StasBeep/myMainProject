@@ -1,0 +1,51 @@
+.simplecalc {
+    margin-top: 200px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    display: flex;
+
+    &-number {
+        width: 250px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid $light-blue;
+        background-color: $contr-light-blue;
+        margin-right: 20px;
+        font-size: 25px;
+
+        &:focus {
+            border: 1 px solid $light-blue;
+            outline: none;
+            box-sizing: border-box;
+        }
+    }
+
+    &-list {
+        padding-top: 8px;
+
+        &-button {
+            width: 35px;
+            height: 35px;
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+            background-color: $light-blue;
+            border-radius: 50%;
+            margin-right: 10px;
+
+            &:active {
+                border: 1px solid $light-blue;
+                background-color: $contr-light-blue;
+            }
+
+            &:last-child {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    &-result {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
